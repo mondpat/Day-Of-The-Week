@@ -66,7 +66,24 @@ def GetDayOfTheWeek(day, month, year):
         case 2: print("tuesday")
         case 1: print("monday")
 
+print("Welcome to program for calculating a day of the week for a specific date, please enter a date you want to get the day for")
+
+print("day: ", end='')
 day = int(input())
+while(day not in range (1,32)):
+    print("the day have to be in range from 1 to 31")
+    day = int(input())
+
+print("month: ", end='')
 month = int(input())
+while(month not in range (1,13)):
+    print("the month have to be in range from 1 to 12")
+    month = int(input())
+
+print("year: ", end='')
 year = int(input())
+while(year < 1):
+    print("the year have to be a positive integer")
+    year = int(input())
+
 GetDayOfTheWeek(day, month, year)
