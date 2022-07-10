@@ -1,5 +1,5 @@
 # Day-Of-The-Week
-## EN (CZ bellow):
+## EN:
 Console program for calculating the day of the week based on the given date.
 The calculation is consist of a some functions:
 - AreDateSame - Checks if the given two data are the same (day1, day2, month1, moth2), if so, function will return true.
