@@ -1,5 +1,4 @@
 # Day-Of-The-Week
-
 ## EN (CZ bellow):
 Console program for calculating the day of the week based on the given date.
 The calculation is consist of a some functions:
